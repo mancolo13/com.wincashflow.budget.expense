@@ -16,7 +16,7 @@ class _Tab2ScreenState extends State<Tab2Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('WinCashFlow • Accounts'),
+        title: const Text('Win • Accounts'),
         actions: [
           IconButton(
             icon: const Icon(Icons.star_rounded, color: AppTheme.secondaryColor),
