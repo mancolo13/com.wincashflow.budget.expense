@@ -17,9 +17,9 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _screens = const [
     Tab1Screen(),
-    Tab2Screen(),
     Tab3Screen(),
     Tab4Screen(),
+    Tab2Screen(),
   ];
 
   @override
@@ -52,7 +52,6 @@ class _MainScreenState extends State<MainScreen> {
           selectedIcon: const Icon(Icons.donut_large, color: AppTheme.primaryColor),
           label: 'Reports',
         ),
-
         ],
       ),
     );

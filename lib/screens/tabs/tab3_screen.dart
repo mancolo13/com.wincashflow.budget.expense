@@ -45,7 +45,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
                   ],
                 ),
                 const Divider(height: 24),
-                const Text('Sensitivity Level', style: TextStyle(fontSize: 15)),
+                const Text('Budget Alert Threshold', style: TextStyle(fontSize: 15)),
                 Slider(
                   value: _volume,
                   activeColor: AppTheme.secondaryColor,
@@ -63,11 +63,11 @@ class _Tab3ScreenState extends State<Tab3Screen> {
             ),
             child: Column(
               children: [
-                _buildSettingTile(Icons.tune, 'Advanced Parameters', 'Fine-tune engine presets'),
+                _buildSettingTile(Icons.tune, 'Receipt OCR Scanning', 'Optimized system engine'),
                 const Divider(),
-                _buildSettingTile(Icons.cloud_sync, 'Cloud Auto-Backup', 'Last synced today at 14:20'),
+                _buildSettingTile(Icons.cloud_sync, 'Automated Categorization', 'Real-time synchronization'),
                 const Divider(),
-                _buildSettingTile(Icons.lock_clock, 'Security Interval', '15 min session timeout'),
+                _buildSettingTile(Icons.shield_outlined, 'Multi-Currency Sync', 'Active security protocol'),
               ],
             ),
           ),
